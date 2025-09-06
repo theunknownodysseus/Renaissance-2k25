@@ -316,8 +316,12 @@ export default function Home() {
               className="w-full max-w-xl h-auto object-contain mb-6 md:mb-0"
             />
             <p className="content-font text-lg text-black text-center md:text-left">
-              Developed by Varun Kumar N, Yugabharathi J, Sweda E
-            </p>
+  Developed by 
+  <a href="https://www.linkedin.com/in/varunkumarn636/" target="_blank" rel="noopener noreferrer">Varun Kumar N</a>, 
+  <a href="https://www.linkedin.com/in/yugabharathi21/" target="_blank" rel="noopener noreferrer">Yugabharathi J</a>, 
+  <a href="https://www.linkedin.com/in/sweda-elangovan-274664320/" target="_blank" rel="noopener noreferrer">Sweda E</a>
+</p>
+
           </div>
 
           {/* Junior Devs - Content Left, Image Right */}
@@ -327,9 +331,11 @@ export default function Home() {
               alt="Junior Dev Team"
               className="w-full max-w-xl h-auto object-contain mb-6 md:mb-0"
             />
-            <p className="content-font text-lg text-black text-center md:text-left">
-              Junior Devs: Vishnuvardhan, Mithilesh
-            </p>
+           <p className="content-font text-lg text-black text-center md:text-left">
+  Junior Devs: 
+  <a href="https://www.linkedin.com/in/mithilesh-b-r-120b58363/" target="_blank" rel="noopener noreferrer">Mithilesh</a>
+</p>
+
           </div>
 
           {/* Footer Title */}
