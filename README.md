@@ -1,3 +1,5 @@
+![Logo](client/src/assets/logo.png)
+
 # Renaissance 2K25
 
 ---
