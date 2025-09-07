@@ -217,7 +217,7 @@ export default function Home() {
         <h2 className="title-font text-3xl sm:text-4xl md:text-6xl text-center mb-16 text-primary transform -rotate-1">
           About Us
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 px-4 md:px-0">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 px-4 md:px-0">
           {/* About CSEA */}
           <GraffitiBox>
             <div className="w-full h-24 rounded-lg mb-4 flex items-center justify-center border-2 border-dashed border-red-400 overflow-hidden">
@@ -232,6 +232,16 @@ export default function Home() {
           {/* About Renaissance */}
           <GraffitiBox>
             <div className="w-full h-24 rounded-lg mb-4 flex items-center justify-center border-2 border-dashed border-red-400 overflow-hidden">
+              <img src={ccclogo} alt="CCC" className="w-full h-full object-contain pt-2 pb-2" />
+            </div>
+            <h3 className="title-font text-2xl mb-4 text-primary">About CCC</h3>
+            <p className="content-font text-black leading-relaxed">
+              The CSE Coding Club is a vibrant community of coding enthusiasts in the Computer Science and Engineering department. By organizing coding events, hackathons, workshops, and mock drives, the club empowers students to sharpen their coding skills, think creatively, and tackle real-world problems. These activities foster a spirit of innovation, teamwork, and healthy competition among members. The CSE Coding Club is an ideal platform for students to learn from peers, get hands-on experience with cutting-edge technologies, and build a strong portfolio of coding projects.
+            </p>
+          </GraffitiBox>
+          
+          <GraffitiBox>
+            <div className="w-full h-24 rounded-lg mb-4 flex items-center justify-center border-2 border-dashed border-red-400 overflow-hidden">
               <img src={logo} alt="Renaissance" className="w-full h-full object-contain pt-2 pb-2" />
             </div>
             <h3 className="title-font text-2xl mb-4 text-primary">About Renaissance</h3>
@@ -239,7 +249,6 @@ export default function Home() {
               Renaissance is CSEA's flagship annual symposium ...
             </p>
           </GraffitiBox>
-
           {/* About KEC */}
           <GraffitiBox>
             <div className="w-full h-24 rounded-lg mb-4 flex items-center justify-center border-2 border-dashed border-red-400 overflow-hidden">
