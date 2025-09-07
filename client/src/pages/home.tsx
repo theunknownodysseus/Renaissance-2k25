@@ -14,7 +14,7 @@ import oneLegImage from "../assets/one-leg.png";
 import devTeamImage from "../assets/dev-team.png";
 import devTeam2Image from "../assets/dev-team2.png";
 import GradualBlur from "@/components/GradualBlur";
-
+import ccclogo from "../assets/ccclogo.png";
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrollCount, setScrollCount] = useState(0);
