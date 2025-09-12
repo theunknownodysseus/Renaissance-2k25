@@ -15,6 +15,23 @@ import devTeamImage from "../assets/dev-team.png";
 import devTeam2Image from "../assets/dev-team2.png";
 import GradualBlur from "@/components/GradualBlur";
 import ccclogo from "../assets/ccclogo.png";
+
+function ReadMore({ children }) {
+  const [expanded, setExpanded] = useState(false);
+
+  return (
+    <p className="content-font text-black leading-relaxed">
+      {expanded ? children : children.slice(0, 120) + "... "}
+      <button
+        onClick={() => setExpanded(!expanded)}
+        className="text-primary underline ml-1"
+      >
+        {expanded ? "Read Less" : "Read More"}
+      </button>
+    </p>
+  );
+}
+
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrollCount, setScrollCount] = useState(0);
@@ -225,7 +242,9 @@ export default function Home() {
             </div>
             <h3 className="title-font text-2xl mb-4 text-primary">About CSEA</h3>
             <p className="content-font text-black leading-relaxed">
+              <ReadMore>
               The department of Computer Science and Engineering holding nearly 700 students has been successfully achieving its goal of identifying and appreciating the unique talents. The department is constantly striving to provide the best acadimecs to empower the practical knowledge of students so as to meet the changing industrial needs. The department brings out world class professionals in the field of computer science. After getting the autonomous status, the syllabus was made more advanced so that students came to know more about the latest cutting edge technologies.
+                </ReadMore>
             </p>
           </GraffitiBox>
 
@@ -236,8 +255,10 @@ export default function Home() {
             </div>
             <h3 className="title-font text-2xl mb-4 text-primary">About CCC</h3>
             <p className="content-font text-black leading-relaxed">
+              <ReadMore>
               The CSE Coding Club is a vibrant community of coding enthusiasts in the Computer Science and Engineering department. By organizing coding events, hackathons, workshops, and mock drives, the club empowers students to sharpen their coding skills, think creatively, and tackle real-world problems. These activities foster a spirit of innovation, teamwork, and healthy competition among members. The CSE Coding Club is an ideal platform for students to learn from peers, get hands-on experience with cutting-edge technologies, and build a strong portfolio of coding projects.
-            </p>
+            </ReadMore>
+              </p>
           </GraffitiBox>
           
           <GraffitiBox>
@@ -246,7 +267,9 @@ export default function Home() {
             </div>
             <h3 className="title-font text-2xl mb-4 text-primary">About Renaissance</h3>
             <p className="content-font text-black leading-relaxed">
+              <ReadMore>
               Renaissance is CSEA's flagship annual symposium ...
+                </ReadMore>
             </p>
           </GraffitiBox>
           {/* About KEC */}
@@ -256,8 +279,10 @@ export default function Home() {
             </div>
             <h3 className="title-font text-2xl mb-4 text-primary">About KEC</h3>
             <p className="content-font text-black leading-relaxed">
+              <ReadMore>
               Kongu Engineering College affiliated to Anna University is located in Perundurai,Erode. It is accredited 'A' grade by National Assessment Accreditation Council.Over the past 40 years the instituton with its good infrastructure facility and excellent academic records has emerged as a center of excellence.The college with its quality education and peaceful environment provides continuous improvement and confidence for the students to face the real world challenges and mould their future.
-            </p>
+            </ReadMore>
+              </p>
           </GraffitiBox>
         </div>
       </section>
