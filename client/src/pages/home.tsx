@@ -87,12 +87,12 @@ export default function Home() {
   ];
 
   const teamMembers = [
-    { name: "Prasanndh Raju M R", role: "Secretary (CSEA)", number: "9876543210" },
-     { name: "Divya K", role: "Secretary (CCC)", number: "9876543210" },
-    { name: "Samvardhini D", role: "Treasurer (CSEA)", number: "9876543210" },
-    { name: "Ragulandiran M", role: "Treasurer (CCC)", number: "9876543210" },
-    { name: "Pravin S", role: "Joint Secretary (CSEA)", number: "9876543210" },
-    { name: "Varshini S", role: "Joint Secretary (CCC)", number: "9876543210" },
+    { name: "Prasanndh Raju M R", role: "Secretary (CSEA)", number: "8946050246" },
+     { name: "Divya K", role: "Secretary (CCC)", number: "6374939491" },
+    { name: "Samvardhini D", role: "Treasurer (CSEA)", number: "9629074704" },
+    { name: "Ragulandiran M", role: "Treasurer (CCC)", number: "9629074704" },
+    { name: "Pravin S", role: "Joint Secretary (CSEA)", number: "9361974260" },
+    { name: "Varshini S", role: "Joint Secretary (CCC)", number: "9940849979" },
   ];
 
   return (
