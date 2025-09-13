@@ -354,9 +354,9 @@ export default function Home() {
             />
             <p className="content-font text-lg text-black text-center md:text-left">
   Developed by 
-  <a href="https://www.linkedin.com/in/varunkumarn636/" target="_blank" rel="noopener noreferrer">Varun Kumar N </a>, 
-  <a href="https://www.linkedin.com/in/yugabharathi21/" target="_blank" rel="noopener noreferrer">Yugabharathi J </a>, 
-  <a href="https://www.linkedin.com/in/sweda-elangovan-274664320/" target="_blank" rel="noopener noreferrer">Sweda E</a>
+  <a href="https://www.linkedin.com/in/varunkumarn636/" target="_blank" rel="noopener noreferrer"> Varun Kumar N </a>, 
+  <a href="https://www.linkedin.com/in/yugabharathi21/" target="_blank" rel="noopener noreferrer"> Yugabharathi J </a>, 
+  <a href="https://www.linkedin.com/in/sweda-elangovan-274664320/" target="_blank" rel="noopener noreferrer"> Sweda E</a>
 </p>
 
           </div>
@@ -370,7 +370,7 @@ export default function Home() {
             />
            <p className="content-font text-lg text-black text-center md:text-left">
   Junior Devs: 
-  <a href="https://www.linkedin.com/in/mithilesh-b-r-120b58363/" target="_blank" rel="noopener noreferrer">Mithilesh </a>
+  <a href="https://www.linkedin.com/in/mithilesh-b-r-120b58363/" target="_blank" rel="noopener noreferrer"> Mithilesh </a>
   <a href="https://www.linkedin.com/in/vishnuvardhankp/" target="_blank" rel="noopener noreferrer">Vishnuvardhan</a>
 </p>
 
