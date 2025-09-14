@@ -23,7 +23,6 @@ import poster9 from "../assets/poster9.png";
 import poster10 from "../assets/poster10.png";
 import poster11 from "../assets/poster11.png";
 import poster12 from "../assets/poster12.png";
-import poster13 from "../assets/poster13.png";
 
 const events = [
   {
