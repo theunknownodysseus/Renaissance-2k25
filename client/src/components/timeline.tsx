@@ -70,7 +70,7 @@ const events = [
       { name: "Video Editing", description: "Create compelling video content.", poster: poster9, registerLink: "https://forms.gle/N7DViYc5i2hBHq5B8" },
       { name: "Escape Room + Finding", description: "Solve puzzles in teams.", poster: poster10, registerLink: "https://forms.gle/gxDPJmFmz1JTSC9T8" },
       { name: "Scrambled Words", description: "Unscramble technical terms.", poster: poster11, registerLink: "https://forms.gle/95QfSztc8qYg57j37" },
-      { name: "Mafia", description: "Social deduction game.", poster: poster12, registerLink: "https://forms.gle/abc123" },
+      { name: "Mafia", description: "Social deduction game.", poster: poster12, registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSdMz4_uab25AtTFWSoXb4CB0bLBoyc9bTbrL3CTKaVIzPGj4A/viewform" },
     ],
   },
   {
