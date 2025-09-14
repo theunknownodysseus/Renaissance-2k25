@@ -33,8 +33,8 @@ const events = [
     side: "left",
     logo: face1,
     detailedEvents: [
-      { name: "Paper Presentation", description: "Present your research papers.", poster: poster1, registerLink: "https://forms.gle/abc123" },
-      { name: "Project Presentation", description: "Show your technical projects.", poster: poster2, registerLink: "https://forms.gle/abc123" },
+      { name: "Paper Presentation", description: "Present your research papers.", poster: poster1, registerLink: "https://forms.gle/767S2bcn4gc2W1bW8" },
+      { name: "Project Presentation", description: "Show your technical projects.", poster: poster2, registerLink: "https://forms.gle/AV2hcJm9bq9ebQYQ8" },
     ],
   },
   {
@@ -44,10 +44,10 @@ const events = [
     side: "right",
     logo: face2,
     detailedEvents: [
-      { name: "Design Sprints", description: "Fast-paced design challenges.", poster: poster3, registerLink: "https://forms.gle/abc123" },
-      { name: "Quiz", description: "Test your knowledge.", poster: poster4, registerLink: "https://forms.gle/abc123" },
-      { name: "Web Designing", description: "Create stunning websites.", poster: poster5, registerLink: "https://forms.gle/abc123" },
-      { name: "Fragments", description: "Debug code fragments.", poster: poster6, registerLink: "https://forms.gle/abc123" },
+      { name: "Design Sprints", description: "Fast-paced design challenges.", poster: poster3, registerLink: "https://forms.gle/E8iAh8THy7EqCANQ8" },
+      { name: "Quiz", description: "Test your knowledge.", poster: poster4, registerLink: "https://forms.gle/VXBz12bbGkQG2cdMA" },
+      { name: "Web Designing", description: "Create stunning websites.", poster: poster5, registerLink: "https://forms.gle/9DCwkGKPYwnDiU6b9" },
+      { name: "Fragments", description: "Debug code fragments.", poster: poster6, registerLink: "https://forms.gle/QnMZqxhmJEWuZbED7" },
     ],
   },
   {
@@ -57,8 +57,8 @@ const events = [
     side: "left",
     logo: face3,
     detailedEvents: [
-      { name: "Code Rush (2nd Years)", description: "High-intensity coding competition.", poster: poster7, registerLink: "https://forms.gle/abc123" },
-      { name: "Spinathon (3rd Years)", description: "Advanced coding marathon.", poster: poster8, registerLink: "https://forms.gle/abc123" },
+      { name: "Code Rush (2nd Years)", description: "High-intensity coding competition.", poster: poster7, registerLink: "https://forms.gle/nRefsL97v7DvXz9E8" },
+      { name: "Spinathon (3rd Years)", description: "Advanced coding marathon.", poster: poster8, registerLink: "https://forms.gle/PPcofVrGxcgRmnoy8" },
     ],
   },
   {
@@ -81,7 +81,7 @@ const events = [
     side: "left",
     logo: face5,
     detailedEvents: [
-      { name: "CCC Workshop", description: "Comprehensive hands-on sessions.", poster: poster13, registerLink: "https://forms.gle/abc123" },
+      { name: "CCC Workshop", description: "Comprehensive hands-on sessions.", poster: poster12, registerLink: "https://forms.gle/abc123" },
     ],
   },
 ];
