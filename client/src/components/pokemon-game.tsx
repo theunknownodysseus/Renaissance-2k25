@@ -46,9 +46,9 @@ export function PokemonGame() {
         <GraffitiBox className="text-center relative z-10">
           <h3 className="title-font text-3xl text-primary mb-6">Side Quest</h3>
           <h4 className="content-font text-xl font-bold mb-6">
-            Solve the Mystery
+            Guess the name of the character
           </h4>
-
+          <h3 className="content-font text-xl font-bold mb-6">Sometimes, what you’re looking for hides quietly at the very bottom of things.</h3>
           {/* Silhouette inside card */}
           <div className="relative mb-6 flex justify-center">
             <img
