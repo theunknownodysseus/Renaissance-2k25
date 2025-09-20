@@ -10,7 +10,7 @@ export function CountdownTimer() {
 
   useEffect(() => {
     // Set event date to January 31, 2025
-    const eventDate = new Date('2025-09-17T00:00:00').getTime();
+    const eventDate = new Date('2025-09-23T00:00:00').getTime();
     
     const updateCountdown = () => {
       const now = new Date().getTime();
@@ -36,7 +36,7 @@ export function CountdownTimer() {
 
   return (
     <>
-      <h2 className="title-font text-2xl md:text-3xl mb-4 text-center">TIME LEFT</h2>
+      <h2 className="title-font text-2xl md:text-3xl mb-4 text-center">TIME LEFT TO REGISTER</h2>
       <div className="flex justify-center space-x-4">
         <div className="countdown-digit p-4 rounded-lg text-center" data-testid="countdown-days">
           <div className="text-3xl font-bold text-white">{timeLeft.days.toString().padStart(2, '0')}</div>
