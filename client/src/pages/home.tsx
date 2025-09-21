@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import logo from "../assets/logo.png";
 import flyImage from "../assets/fly.png";
 import cseaImage from "../assets/csea.png";
+import cseImage from "../assets/cse.png";
 import kecImage from "../assets/kec.png";
 import idImage from "../assets/id.png";
 import oneLegImage from "../assets/one-leg.png";
@@ -139,16 +140,6 @@ export default function Home() {
                 {item.label}
               </button>
             ))}
-            <a
-              href="https://your-form-link.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full"
-            >
-              <Button className="w-full nav-item bg-primary text-primary-foreground px-4 py-2 font-bold hover:bg-primary/90 mt-2">
-                Register
-              </Button>
-            </a>
           </div>
         )}
       </nav>
@@ -238,7 +229,30 @@ export default function Home() {
           About Us
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 px-4 md:px-0">
+
+           <GraffitiBox>
+            <div className="w-full h-24 rounded-lg mb-4 flex items-center justify-center border-2 border-dashed border-red-400 overflow-hidden">
+              <img src={kecImage} alt="KEC" className="w-full h-full object-contain" />
+            </div>
+            <h3 className="title-font text-2xl mb-4 text-primary">About KEC</h3>
+            <p className="content-font text-black leading-relaxed">
+              <ReadMore>
+              Kongu Engineering College, affiliated to Anna University, is located in Perundurai, Erode. It is accredited with an 'A' grade by National Assessment Accreditation Council. Over the past 40 years, the instituton with its good infrastructure facility and excellent academic records has emerged as a center of excellence.The college with its quality education and peaceful environment provides continuous improvement and confidence for the students to face the real world challenges and mould their future.
+            </ReadMore>
+              </p>
+          </GraffitiBox>
           {/* About CSEA */}
+          <GraffitiBox>
+            <div className="w-full h-24 rounded-lg mb-4 flex items-center justify-center border-2 border-dashed border-red-400 overflow-hidden">
+              <img src={cseImage} alt="CSE" className="w-full h-full object-contain" />
+            </div>
+            <h3 className="title-font text-2xl mb-4 text-primary">About CSE</h3>
+            <p className="content-font text-black leading-relaxed">
+              <ReadMore>
+     The Department of Computer Science and Engineering, holding nearly 700 students, has been successfully achieving its goal of identifying and appreciating the unique talents. The department is constantly striving to provide the best acadimecs to empower the practical knowledge of students so as to meet the changing industrial needs. The department brings out world class professionals in the field of computer science. After getting the autonomous status, the syllabus was made more advanced so that students came to know more about the latest cutting-edge technologies.           </ReadMore>
+            </p>
+          </GraffitiBox>
+          
           <GraffitiBox>
             <div className="w-full h-24 rounded-lg mb-4 flex items-center justify-center border-2 border-dashed border-red-400 overflow-hidden">
               <img src={cseaImage} alt="CSEA" className="w-full h-full object-contain" />
@@ -246,8 +260,8 @@ export default function Home() {
             <h3 className="title-font text-2xl mb-4 text-primary">About CSEA</h3>
             <p className="content-font text-black leading-relaxed">
               <ReadMore>
-              The department of Computer Science and Engineering holding nearly 700 students has been successfully achieving its goal of identifying and appreciating the unique talents. The department is constantly striving to provide the best acadimecs to empower the practical knowledge of students so as to meet the changing industrial needs. The department brings out world class professionals in the field of computer science. After getting the autonomous status, the syllabus was made more advanced so that students came to know more about the latest cutting edge technologies.
-                </ReadMore>
+                The Computer Science and Engineering Association (CSEA) is a vibrant student-driven body that forms the backbone of academic, technical, and cultural activities in the CSE department. It serves as a dynamic forum where students come together to explore, learn, and innovate beyond the classroom. By organizing guest lectures, technical talks, workshops, hackathons, symposium, and cultural events, CSEA provides ample opportunities to sharpen technical knowledge, foster leadership, and nurture creativity. Acting as a bridge between industry, and students, the association keeps members connected with emerging technologies while encouraging collaboration, problem-solving, and holistic growth. With its diverse initiatives, CSEA not only cultivates professional excellence but also builds a strong sense of community, preparing students to meet industry expectations and contribute meaningfully to society.
+           </ReadMore>
             </p>
           </GraffitiBox>
 
@@ -271,22 +285,12 @@ export default function Home() {
             <h3 className="title-font text-2xl mb-4 text-primary">About Renaissance</h3>
             <p className="content-font text-black leading-relaxed">
               <ReadMore>
-              Renaissance is CSEA's flagship annual symposium ...
+              Renaissance 2K25 is an intra-departmental symposium organized by the Computer Science and Engineering Association (CSEA) in collaboration with the CSE Coding Club. It is a platform designed to ignite curiosity, creativity, and innovation among budding computer engineers. The symposium features a blend of technical and non-technical events, including paper presentations, coding challenges, workshops, and fun activities, encouraging students to showcase their talent and explore emerging domains in technology. By fostering a spirit of healthy competition, teamwork, and knowledge-sharing, Renaissance 2K25 not only enhances technical proficiency but also enriches the overall learning experience. It stands as a celebration of ideas, skills, and collaboration, reflecting the vibrant culture of the CSE department.
                 </ReadMore>
             </p>
           </GraffitiBox>
           {/* About KEC */}
-          <GraffitiBox>
-            <div className="w-full h-24 rounded-lg mb-4 flex items-center justify-center border-2 border-dashed border-red-400 overflow-hidden">
-              <img src={kecImage} alt="KEC" className="w-full h-full object-contain" />
-            </div>
-            <h3 className="title-font text-2xl mb-4 text-primary">About KEC</h3>
-            <p className="content-font text-black leading-relaxed">
-              <ReadMore>
-              Kongu Engineering College affiliated to Anna University is located in Perundurai,Erode. It is accredited 'A' grade by National Assessment Accreditation Council.Over the past 40 years the instituton with its good infrastructure facility and excellent academic records has emerged as a center of excellence.The college with its quality education and peaceful environment provides continuous improvement and confidence for the students to face the real world challenges and mould their future.
-            </ReadMore>
-              </p>
-          </GraffitiBox>
+         
         </div>
       </section>
 
