@@ -196,7 +196,7 @@ export default function Home() {
             27th September 2025
           </h1>
          <h2 className="title-font text-xl sm:text-2xl md:text-4xl mt-8 mb-4 text-primary transform -rotate-1">
-  Last Date To Register : 23th September 2025
+  Last Date To Register: 24th September 2025
 </h2>
         </div>
 
