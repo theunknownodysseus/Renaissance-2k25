@@ -7,7 +7,8 @@
 ## Overview
 Renaissance 2K25 is the flagship annual technical symposium organized by the Computer Science and Engineering Association (CSEA) at Kongu Engineering College. It brings together students and technology enthusiasts for a day of learning, innovation, and competition.
 
-**Event Date:** 20th September 2025
+**Event Date:** 26th September 2025
+
 
 ---
 
@@ -35,7 +36,7 @@ For queries or more information, contact the event coordinators:
 
 Prasanndh Raju M R, Secretary (CSEA)
 Samvardhini D, Treasurer (CSEA)
-Pravin S, Joint Secretary (CSEA)
+Kamal Kishore V, Joint Secretary (CSEA)
 Divya K, Secretary (CCC)
 Ragulandiran M, Treasurer (CCC)
 Varshini S, Joint Secretary (CCC)
