@@ -31,8 +31,8 @@ const events = [
     side: "left",
     logo: face1,
     detailedEvents: [
-      { name: "Paper Presentation", description: "Present your research papers.", poster: poster1, registerLink: "https://forms.gle/767S2bcn4gc2W1bW8" },
-      { name: "Project Presentation", description: "Show your technical projects.", poster: poster2, registerLink: "https://forms.gle/AV2hcJm9bq9ebQYQ8" },
+      { name: " Word Spark", description: "Focus on Innovation | Clarity | Technical Content", poster: poster1, registerLink: "https://forms.gle/767S2bcn4gc2W1bW8" },
+      { name: "Idea Quest", description: "Showcase your Prototype, Research & Simulation with Confidence", poster: poster2, registerLink: "https://forms.gle/AV2hcJm9bq9ebQYQ8" },
     ],
   },
   {
@@ -42,10 +42,10 @@ const events = [
     side: "right",
     logo: face2,
     detailedEvents: [
-      { name: "Design Sprints", description: "Fast-paced design challenges.", poster: poster3, registerLink: "https://forms.gle/E8iAh8THy7EqCANQ8" },
-      { name: "Quiz", description: "Test your knowledge.", poster: poster4, registerLink: "https://forms.gle/VXBz12bbGkQG2cdMA" },
-      { name: "Web Designing", description: "Create stunning websites.", poster: poster5, registerLink: "https://forms.gle/9DCwkGKPYwnDiU6b9" },
-      { name: "Fragments", description: "Debug code fragments.", poster: poster6, registerLink: "https://forms.gle/QnMZqxhmJEWuZbED7" },
+      { name: "Sprint-o-Mania", description: "Generate four ideas, design one, and impress the judges with creativity. Create memes and present with style. For 2–3 participants.", poster: poster3, registerLink: "https://forms.gle/E8iAh8THy7EqCANQ8" },
+      { name: " Quiztron", description: "Includes apps, logos, program-based questions, ASCII-to-words, crosswords, image sequences, and a buzzer quiz with negative marking; teams of 2.", poster: poster4, registerLink: "https://forms.gle/VXBz12bbGkQG2cdMA" },
+      { name: "Web Weave", description: "One-hour challenge to design a three-page desktop web app inspired by the UNSDGs, in teams of two.", poster: poster5, registerLink: "https://forms.gle/9DCwkGKPYwnDiU6b9" },
+      { name: " Decrypt-o-thon", description: "Decrypt the chaos, discover the statement, and dominate the stage through 4 strategic stages with teams of 5.", poster: poster6, registerLink: "https://forms.gle/QnMZqxhmJEWuZbED7" },
     ],
   },
   {
@@ -55,8 +55,8 @@ const events = [
     side: "left",
     logo: face3,
     detailedEvents: [
-      { name: "Code Rush (2nd Years)", description: "High-intensity coding competition.", poster: poster7, registerLink: "https://forms.gle/nRefsL97v7DvXz9E8" },
-      { name: "Spinathon (3rd Years)", description: "Advanced coding marathon.", poster: poster8, registerLink: "https://forms.gle/PPcofVrGxcgRmnoy8" },
+      { name: "Code Rush (2nd Years)", description: "One problem, two coders, alternating turns to crack it together; teams of 2.", poster: poster7, registerLink: "https://forms.gle/nRefsL97v7DvXz9E8" },
+      { name: "Spinathon (3rd Years)", description: "Spin the wheel, face the challenge, and race the clock—only the fastest coder survives; solo play.", poster: poster8, registerLink: "https://forms.gle/PPcofVrGxcgRmnoy8" },
     ],
   },
   {
@@ -66,10 +66,10 @@ const events = [
     side: "right",
     logo: face4,
     detailedEvents: [
-      { name: "Video Editing", description: "Create compelling video content.", poster: poster9, registerLink: "https://forms.gle/N7DViYc5i2hBHq5B8" },
-      { name: "Escape Room + Finding", description: "Solve puzzles in teams.", poster: poster10, registerLink: "https://forms.gle/gxDPJmFmz1JTSC9T8" },
-      { name: "Scrambled Words", description: "Unscramble technical terms.", poster: poster11, registerLink: "https://forms.gle/95QfSztc8qYg57j37" },
-      { name: "Mafia", description: "Social deduction game.", poster: poster12, registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSdMz4_uab25AtTFWSoXb4CB0bLBoyc9bTbrL3CTKaVIzPGj4A/viewform" },
+      { name: "Cut & Groove", description: "Mix clips, music, and your edits to create killer trailers; solo event.", poster: poster9, registerLink: "https://forms.gle/N7DViYc5i2hBHq5B8" },
+      { name: "Phantoms Within", description: "Solve the puzzle and escape the Phantom within 7 minutes; teams of four participants.", poster: poster10, registerLink: "https://forms.gle/gxDPJmFmz1JTSC9T8" },
+      { name: "Word Whirl", description: "Engage in a battle of wit and strategy, decode clues, and compete for the crown; teams of three.", poster: poster11, registerLink: "https://forms.gle/95QfSztc8qYg57j37" },
+      { name: "Twisted Trust", description: "Employ strategy, deception, and observation to outsmart opponents; solo participation.", poster: poster12, registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSdMz4_uab25AtTFWSoXb4CB0bLBoyc9bTbrL3CTKaVIzPGj4A/viewform" },
     ],
   },
 ];
