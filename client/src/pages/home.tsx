@@ -91,7 +91,7 @@ export default function Home() {
      { name: "Divya K", role: "Secretary (CCC)", number: "6374939491" },
     { name: "Samvardhini D", role: "Treasurer (CSEA)", number: "9629074704" },
     { name: "Ragulandiran M", role: "Treasurer (CCC)", number: "9629074704" },
-    { name: "Pravin S", role: "Joint Secretary (CSEA)", number: "9361974260" },
+    { name: "Kamal Kishore V", role: "Joint Secretary (CSEA)", number: "7530086388" },
     { name: "Varshini S", role: "Joint Secretary (CCC)", number: "9940849979" },
   ];
 
