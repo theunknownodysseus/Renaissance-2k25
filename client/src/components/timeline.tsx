@@ -8,7 +8,6 @@ import face1 from "../assets/face - 1.png";
 import face2 from "../assets/face - 2.png";
 import face3 from "../assets/face - 3.png";
 import face4 from "../assets/face - 4.png";
-import face5 from "../assets/face - 5.png";
 
 // Posters for inner events
 import poster1 from "../assets/poster1.png";
@@ -71,16 +70,6 @@ const events = [
       { name: "Escape Room + Finding", description: "Solve puzzles in teams.", poster: poster10, registerLink: "https://forms.gle/gxDPJmFmz1JTSC9T8" },
       { name: "Scrambled Words", description: "Unscramble technical terms.", poster: poster11, registerLink: "https://forms.gle/95QfSztc8qYg57j37" },
       { name: "Mafia", description: "Social deduction game.", poster: poster12, registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSdMz4_uab25AtTFWSoXb4CB0bLBoyc9bTbrL3CTKaVIzPGj4A/viewform" },
-    ],
-  },
-  {
-    time: "All Day",
-    title: "CCC Workshop",
-    description: "Hands-on technical sessions and training",
-    side: "left",
-    logo: face5,
-    detailedEvents: [
-      { name: "CCC Workshop", description: "Comprehensive hands-on sessions.", poster: poster12, registerLink: "https://forms.gle/abc123" },
     ],
   },
 ];
