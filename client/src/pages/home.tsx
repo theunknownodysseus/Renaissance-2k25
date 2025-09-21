@@ -193,7 +193,7 @@ export default function Home() {
           </div>
           <CountdownTimer />
           <h1 className="title-font text-3xl sm:text-4xl md:text-6xl mt-8 mb-4 text-primary transform -rotate-1">
-            27th September 2025
+            26th September 2025
           </h1>
          <h2 className="title-font text-xl sm:text-2xl md:text-4xl mt-8 mb-4 text-primary transform -rotate-1">
   Last Date To Register: 24th September 2025
