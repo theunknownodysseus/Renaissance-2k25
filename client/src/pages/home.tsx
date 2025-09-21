@@ -116,9 +116,6 @@ export default function Home() {
                 {item.label}
               </button>
             ))}
-            <Button className="nav-item bg-primary text-primary-foreground px-6 py-2 font-bold hover:bg-primary/90">
-              Register
-            </Button>
           </div>
           <Button
             variant="ghost"
