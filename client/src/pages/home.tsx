@@ -90,7 +90,7 @@ export default function Home() {
   const teamMembers = [
     { name: "Prasanndh Raju M R", role: "Secretary (CSEA)", number: "8946050246" },
      { name: "Divya K", role: "Secretary (CCC)", number: "6374939491" },
-    { name: "Samvardhini D", role: "Treasurer (CSEA)", number: "9629074704" },
+    { name: "Samvardhini D", role: "Treasurer (CSEA)", number: "9487183168" },
     { name: "Ragulandiran M", role: "Treasurer (CCC)", number: "9629074704" },
     { name: "Kamal Kishore V", role: "Joint Secretary (CSEA)", number: "7530086388" },
     { name: "Varshini S", role: "Joint Secretary (CCC)", number: "9940849979" },
