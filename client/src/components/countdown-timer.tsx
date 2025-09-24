@@ -10,7 +10,7 @@ export function CountdownTimer() {
 
   useEffect(() => {
     // Set event date to January 31, 2025
-    const eventDate = new Date('2025-09-24T00:00:00').getTime();
+    const eventDate = new Date('2025-09-25T00:00:00').getTime();
     
     const updateCountdown = () => {
       const now = new Date().getTime();
